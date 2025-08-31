@@ -90,7 +90,7 @@ export default function Careers() {
       formData.append("field", form.field);
       formData.append("cv", form.cv);
 
-      const res = await fetch("https://pysparks.vercel.app/api/careerApply", {
+      const res = await fetch("https://pysparkslab.com/api/careerApply", {
         method: "POST",
         body: formData,
       });
@@ -102,7 +102,7 @@ export default function Careers() {
         setStatus("❌ Failed to submit application. Try again.");
       }
     } catch (err) {
-      console.error("Error submitting form:", err);
+      // console.error("Error submitting form:", err);
       setStatus("❌ Error submitting form.");
     } finally {
       setLoading(false);

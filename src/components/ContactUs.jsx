@@ -66,7 +66,7 @@ export default function ContactUs() {
     setStatus("");
 
     try {
-      const res = await fetch("https://pysparks.vercel.app/api/sendMail", {
+      const res = await fetch("https://pysparkslab.com/api/sendMail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
@@ -79,7 +79,7 @@ export default function ContactUs() {
         setStatus("❌ Failed to send message. Try again.");
       }
     } catch (err) {
-      console.error("Error sending message:", err);
+      // console.error("Error sending message:", err);
       setStatus("❌ Error sending message.");
     } finally {
       setLoading(false);
