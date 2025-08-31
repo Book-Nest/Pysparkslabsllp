@@ -1,0 +1,94 @@
+{
+  "founders": [
+    {
+      "name": "Atri Bhattacharaya",
+      "role": "CEO",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Sruti Manna",
+      "role": "Founder",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Shuvrajiit Adhikari",
+      "role": "TT0",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Debanjan Ghosh",
+      "role": "Founder",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ],
+  "consultants": [
+    {
+      "name": "Sayak Ghosh",
+      "role": "Consultant",
+      "imgSrc": "/team.avif",
+      "description": "Sayak Ghosh, M.Sc. in Economics with specialization in Econometrics from WBSU, has experience as a Research Assistant under projects funded by the A.K. Dasgupta Centre for Planning and Development and at WBSU. His research contributions include a publication in a UGC CARE-listed journal, paper presentations at the Bengal Economic Association, and Best Paper Awards at international conferences. He has attended several national-level conferences on Applied Econometrics and economic issues. Proficient in Python, Stata, Power BI, and Advanced Excel for data analysis and econometric modeling."
+    },
+    {
+      "name": "Diptorup Ghosh",
+      "role": "Consultant",
+      "imgSrc": "/team.avif",
+      "description": "Diptorup Ghosh, M.Sc. in Economics and UGC-NET qualified professional, has strong analytical expertise. Currently working as a Data Analyst with proven skills in handling complex datasets. Former Research Assistant at West Bengal State University (WBSU). Proficient in Python, Excel, Power BI, and Stata for advanced data analysis. Passionate about transforming data into meaningful insights and practical solutions."
+    }
+  ],
+  "expertAdvisors": [
+    {
+      "name": "Dr Tushar Kanti Dey",
+      "role": "Advisor",
+      "imgSrc": "/team.avif",
+      "description": "Dr. Tushar Kanti Dey [PhD in Economics, M.Sc (Economics)] Assistant Professor of Economics, School of Management Sciences, MAKAUT WB. Tushar Kanti Dey is associated with teaching and research of economics, econometrics, statistics, and other allied courses of general degree, Management, Law, and Engineering since 12 years. He has contributed to a lot of interdisciplinary research and was associated with the State Institute of Panchyat and Rural Development in central funded research projects. He has consulted different research projects as the statistical associate and has vast experience in field survey–based research. Again, he has worked across different states of India to serve research assignments on behalf of leading research organizations of India. He has a vast experience of teaching Economics and related subjects in different disciplines like Law, Management, and general degree courses in both public & private sector universities and colleges."
+    },
+    {
+      "name": "Kaushik Mukherjee",
+      "role": "Advisor",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Progyan Bhattacharya",
+      "role": "Advisor",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Debottam Bhattacharya",
+      "role": "Advisor",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ],
+  "extendedTeamMembers": [
+    {
+      "name": "Sanjita Kumari Jha",
+      "role": "Advisor",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Sagarike Debnath",
+      "role": "Advisor",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Arunima Chaulia",
+      "role": "Advisor",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "name": "Anuksha Sarkar",
+      "role": "Advisor",
+      "imgSrc": "/team.avif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ]
+}

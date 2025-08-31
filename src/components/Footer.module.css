@@ -1,0 +1,130 @@
+.footer {
+  background: linear-gradient(135deg, #1e1e2f, #2c2f33);
+  color: #e5e5e5;
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  align-items: flex-start;
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 1s ease, transform 1s ease;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.fadeIn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contactContainer {
+  display: flex;
+  gap: 6rem;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+
+.contacts,
+.address {
+  min-width: 220px;
+  text-align: left;
+  border-left: 3px solid rgba(240, 165, 0, 0.4);
+  padding-left: 1rem;
+}
+
+.contacts h3,
+.address h3 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.6rem;
+  color: #f0a500;
+  text-transform: uppercase;
+}
+
+.contacts p,
+.address p,
+.contacts a {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0.25rem 0;
+  color: #cfcfcf;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contacts a.email:hover {
+  color: #f0a500;
+  text-decoration: underline;
+  transform: translateX(3px);
+}
+
+.logo {
+  align-self: flex-start;
+  max-width: 150px;
+  filter: brightness(0) invert(0.9);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo:hover {
+  transform: rotate(-5deg) scale(1.05);
+  filter: brightness(1) invert(0.8);
+}
+
+/* Divider line for mobile */
+.footer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #f0a500, transparent);
+  transform: translateX(-50%);
+  opacity: 0.5;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1.5rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    align-self: center;
+    margin-bottom: 1rem;
+    max-width: 130px;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 100%;
+  }
+
+  .contacts,
+  .address {
+    min-width: auto;
+    text-align: center;
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .contacts h3,
+  .address h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .contacts p,
+  .address p,
+  .contacts a {
+    font-size: 1.05rem;
+  }
+}

@@ -1,0 +1,207 @@
+/* === Navbar === */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 8%;
+  background: rgb(234, 234, 234);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 0, 0, 0.04);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* === Menu Links === */
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu li a,
+.dropdownToggle {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 1.05rem;
+  font-weight: 700;
+  position: relative;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+/* Hover underline animation */
+.menu li a::after,
+.dropdownToggle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background: #111;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: right;
+}
+
+.menu li a:hover::after,
+.menu li a.active::after,
+.menu li a[aria-current="page"]::after,
+.dropdownToggle:hover::after,
+.dropdownToggle.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* === Hamburger === */
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.menuToggle span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  background: #111;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+/* Clean X close */
+.menuToggle.open span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+.menuToggle.open span:nth-child(2) {
+  opacity: 0;
+}
+.menuToggle.open span:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+/* === Dropdown === */
+.dropdown {
+  position: relative;
+}
+
+.dropdownToggle {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+
+.arrowIcon {
+  font-size: 1rem;
+  transition: transform 0.3s;
+}
+.dropdownToggle.active .arrowIcon {
+  transform: rotate(180deg);
+}
+
+/* Dropdown Menu Styling */
+.dropdownMenu {
+  position: absolute;
+  background: rgb(234, 234, 234);
+  list-style: none;
+  top: 2.5rem;
+  left: 0;
+  border-radius: 12px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.35s ease-in-out;
+  min-width: 260px;
+  padding: 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.dropdownMenu.open {
+  max-height: 600px;
+  padding: 0.75rem 1rem;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdownMenu li {
+  margin: 0.4rem 0;
+  animation: fadeSlide 0.4s ease forwards;
+}
+
+.dropdownMenu li a {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: none;
+  padding: 0.5rem 0.6rem;
+  display: block;
+  border-radius: 6px;
+  transition: color 0.25s;
+}
+
+.dropdownMenu li a:hover {
+  color: #000;
+  font-weight: 600;
+}
+
+/* Animation */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* === Mobile === */
+@media screen and (max-width: 768px) {
+  .menuToggle {
+    display: flex;
+  }
+
+  .menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background: rgb(234, 234, 234);
+    padding: 1rem 1.5rem;
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .dropdownMenu {
+    position: static;
+    box-shadow: none;
+    margin-top: 0.5rem;
+    min-width: 100%;
+    border-radius: 6px;
+  }
+}
