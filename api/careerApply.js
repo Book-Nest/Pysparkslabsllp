@@ -27,7 +27,9 @@ export default async function handler(req, res) {
 
     try {
       const transporter = nodemailer.createTransport({
-        service: "gmail",
+        host: "smtp.zoho.in",
+        port: 465,
+        secure: true,
         auth: {
           user: process.env.MY_EMAIL,
           pass: process.env.MY_EMAIL_PASSWORD,
