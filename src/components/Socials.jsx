@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstragram, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 import styles from "./Socials.module.css";
 
 export default function Socials() {
@@ -16,9 +16,9 @@ export default function Socials() {
         href="https://www.instagram.com/pysparks_lab.llp/"
         target="_blank"
         rel="noreferrer"
-        aria-label="Instragram"
+        aria-label="Instagram"
       >
-        <FaInstragram />
+        <FaInstagram />
       </a>
       <a
         href="https://www.linkedin.com/posts/pysparks-lab_businesssolutions-innovation-ai-activity-7368331457406136322-Z4Fn/"
