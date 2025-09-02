@@ -3,25 +3,25 @@
     {
       "name": "Atri Bhattacharaya",
       "role": "CEO",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/atri_bhattacharaya.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       "name": "Sruti Manna",
-      "role": "Founder",
+      "role": "CMO",
       "imgSrc": "/team.avif",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       "name": "Shuvrajiit Adhikari",
-      "role": "TT0",
+      "role": "CT0",
       "imgSrc": "/team.avif",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       "name": "Debanjan Ghosh",
-      "role": "Founder",
-      "imgSrc": "/team.avif",
+      "role": "Head of Operations, Sales, and Marketing",
+      "imgSrc": "/debanjan_ghosh.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
   ],
@@ -56,12 +56,12 @@
       "name": "Progyan Bhattacharya",
       "role": "Advisor",
       "imgSrc": "/team.avif",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "description": "Technologist with almost a decade long experience in the industry across stacks and impact in Web Application Development, Mobile Application Development, Big Data and Artificial Intelligence System. Beyond industrial exposure, he is also active in Open Source, Community Building, Mentorship and Philanthropy and widely known as The Pro Dev."
     },
     {
       "name": "Debottam Bhattacharya",
       "role": "Advisor",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/debottam_bhattacharya.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
   ],
@@ -69,7 +69,7 @@
     {
       "name": "Sanjita Kumari Jha",
       "role": "Advisor",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/sanjita_kumari_jha.JPG",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
@@ -86,8 +86,8 @@
     },
     {
       "name": "Anuksha Sarkar",
-      "role": "Advisor",
-      "imgSrc": "/team.avif",
+      "role": "Intern",
+      "imgSrc": "/anuksha_sarkar.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
   ]
