@@ -4,10 +4,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 8%;
-  background: var(--color-light--3);
+  background: var(--color-light--300);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #00000014;
-  box-shadow: 0 2px 6px #0000000f, 0 4px 12px #0000000a;
+  border-bottom: 1px solid var(--color-light--500);
+  box-shadow: 0 2px 6px var(--color-light--600),
+    0 4px 12px var(--color-light--700);
   position: relative;
   top: 0;
   z-index: 1000;
@@ -26,7 +27,7 @@
 .dropdownToggle {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--color-dark--0);
+  color: var(--color-dark--500);
   font-size: 1.05rem;
   font-weight: 700;
   position: relative;
@@ -44,7 +45,7 @@
   bottom: -4px;
   height: 2px;
   width: 100%;
-  background: var(--color-dark--2);
+  background: var(--color-dark--700);
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
   transform-origin: right;
@@ -74,7 +75,7 @@
   display: block;
   width: 26px;
   height: 3px;
-  background: var(--color-dark--2);
+  background: var(--color-dark--700);
   border-radius: 3px;
   transition: 0.3s;
 }
@@ -115,7 +116,7 @@
 /* Dropdown Menu Styling */
 .dropdownMenu {
   position: absolute;
-  background: var(--color-light--3);
+  background: var(--color-light--300);
   list-style: none;
   top: 2.5rem;
   left: 0;
@@ -127,7 +128,7 @@
   transition: all 0.35s ease-in-out;
   min-width: 260px;
   padding: 0;
-  box-shadow: 0 8px 24px var(--color-light--1);
+  box-shadow: 0 8px 24px var(--color-light--800);
 }
 
 .dropdownMenu.open {
@@ -143,7 +144,7 @@
 }
 
 .dropdownMenu li a {
-  color: var(--color-dark--3);
+  color: var(--color-dark--400);
   font-size: 1rem;
   font-weight: 500;
   text-transform: none;
@@ -154,7 +155,7 @@
 }
 
 .dropdownMenu li a:hover {
-  color: var(--color-dark--4);
+  color: var(--color-dark--800);
   font-weight: 600;
 }
 
@@ -183,7 +184,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    background: var(--color-light--3);
+    background: var(--color-light--300);
     padding: 1rem 1.5rem;
     transform: translateY(-100%);
     opacity: 0;

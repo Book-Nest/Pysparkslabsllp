@@ -1,0 +1,99 @@
+:root {
+  --fadeDuration: 0.8s;
+  --fadeEase: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Section */
+.clientsSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 8%;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity var(--fadeDuration) var(--fadeEase),
+    transform var(--fadeDuration) var(--fadeEase);
+}
+
+.clientsSection.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  position: relative;
+  display: inline-block;
+  color: var(--color-dark--500);
+}
+
+.titleUnderline {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: var(--color-yellow--400);
+  animation: underlineExpand 0.6s ease forwards;
+  animation-delay: 0.3s;
+}
+
+/* Grid */
+.clientsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  justify-items: start;
+}
+
+/* Card */
+.clientCard {
+  background: var(--color-light--100);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid var(--color-light--300);
+  box-shadow: 0 6px 20px var(--color-light--800);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.clientCard:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 30px var(--color-light--900);
+  border-color: var(--color-yellow--300);
+}
+
+/* Logo */
+.clientLogo {
+  max-width: 120px;
+  max-height: 80px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.clientCard:hover .clientLogo {
+  filter: grayscale(0%);
+}
+
+/* Animations */
+@keyframes underlineExpand {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .titleUnderline {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

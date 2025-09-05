@@ -1,9 +1,9 @@
 :root {
   --fadeDuration: 0.8s;
   --fadeEase: cubic-bezier(0.4, 0, 0.2, 1);
-  --cardBg: rgba(255, 255, 255, 0.15);
-  --cardBorder: rgba(255, 255, 255, 0.25);
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --cardBg: #ffffff26;
+  --cardBorder: #ffffff40;
+  --shadow: 0 10px 30px #0000001f;
 }
 
 /* Section */
@@ -11,7 +11,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 5rem 8%;
-  color: #222;
+  color: var(--color-dark--500);
   opacity: 1; /* always visible */
   transform: translateY(0);
 }
@@ -38,7 +38,7 @@
   transform: translateX(-50%);
   height: 4px;
   width: 0;
-  background-color: #f0a500;
+  background-color: var(--color-yellow--400);
   border-radius: 3px;
   animation: underlineExpand 0.6s ease forwards;
   animation-delay: 0.6s;
@@ -47,7 +47,7 @@
 .description {
   font-size: 1.15rem;
   line-height: 1.8;
-  color: #444;
+  color: var(--color-dark--300);
   margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
@@ -93,7 +93,7 @@
   left: 0;
   width: 0;
   height: 3px;
-  background-color: #f0a500;
+  background-color: var(--color-yellow--400);
   animation: underlineExpand 0.6s ease forwards;
   animation-delay: 0.3s;
 }
@@ -104,6 +104,7 @@
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+  align-items: start;
 }
 
 .member {
@@ -121,8 +122,8 @@
 
 .member:hover {
   transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
-  border-color: #f0a500;
+  box-shadow: 0 15px 40px var(--color-light--900);
+  border-color: var(--color-light--300);
 }
 
 .photo {
@@ -131,7 +132,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
-  border: 3px solid rgba(255, 255, 255, 0.6);
+  border: 3px solid var(--color-light--200);
 }
 
 .name {
@@ -142,14 +143,14 @@
 
 .role {
   font-size: 0.95rem;
-  color: #777;
+  color: var(--color-dark--100);
 }
 
 /* Expanded Description */
 .extraDescription {
   margin-top: 0.8rem;
   font-size: 0.9rem;
-  color: #555;
+  color: var(--color-light--200);
   line-height: 1.5;
   max-height: 0;
   overflow: hidden;
@@ -158,7 +159,7 @@
 }
 
 .member.expanded .extraDescription {
-  max-height: 200px; /* enough space */
+  max-height: 200px;
   opacity: 1;
 }
 

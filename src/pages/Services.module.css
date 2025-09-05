@@ -39,7 +39,7 @@
   gap: 4rem;
   /* align-items: center; */
   flex-wrap: wrap;
-  color: var(--color-dark--0);
+  color: var(--color-dark--500);
 }
 
 .imageContainer {
@@ -54,14 +54,14 @@
   max-width: 460px;
   object-fit: cover;
   border-radius: 1rem;
-  box-shadow: 0 8px 25px var(--color-light--1);
+  box-shadow: 0 8px 25px var(--color-light--800);
   aspect-ratio: 1 / 1;
   transition: transform 0.6s ease, box-shadow 0.6s ease;
 }
 
 .image:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 35px var(--color-light--2);
+  box-shadow: 0 12px 35px var(--color-light--900);
 }
 
 .text {
@@ -73,7 +73,7 @@
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 900;
   margin-bottom: 2rem;
-  color: var(--color-dark--0);
+  color: var(--color-dark--500);
   letter-spacing: 0.05em;
 }
 
@@ -82,7 +82,7 @@
   max-width: 640px;
   line-height: 1.7;
   margin-bottom: 1.6rem;
-  color: var(--color-dark--1);
+  color: var(--color-dark--600);
 }
 
 /* === Services Section === */
@@ -90,7 +90,7 @@
   font-size: 1.6rem;
   font-weight: 700;
   margin: 2rem 0 1rem 0;
-  color: var(--color-dark--0);
+  color: var(--color-dark--500);
 }
 
 .servicesList {
@@ -103,7 +103,7 @@
 
 .servicesList li {
   font-size: 1rem;
-  color: var(--color-dark--1);
+  color: var(--color-dark--600);
   display: flex;
   align-items: center;
   gap: 0.6rem;
@@ -111,14 +111,14 @@
 }
 
 .servicesList svg {
-  color: var(--color-yellow--1);
+  color: var(--color-yellow--400);
   font-size: 1.2rem;
 }
 
 /* === Underline === */
 .underline {
   height: 0.3rem;
-  background-color: var(--color-yellow--1);
+  background-color: var(--color-yellow--400);
   border-radius: 5px;
   animation: slideUnderline 1s ease forwards;
 }

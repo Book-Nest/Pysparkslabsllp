@@ -1,6 +1,8 @@
+import Client from "../components/Client";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
+import Project from "../components/Project";
 import Team from "../components/Team";
 import styles from "./Homepage.module.css";
 
@@ -31,6 +33,8 @@ export default function Homepage() {
         </div>
       </section>
       <ContactUs />
+      <Client />
+      <Project />
       <Team />
       <Footer />
     </>

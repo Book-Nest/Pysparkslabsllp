@@ -2,32 +2,31 @@
 @import "https://fonts.google.com/share?selection.family=Nunito:ital,wght@0,200..1000;1,200..1000";
 
 :root {
-  --color-red--0: #d9534f;
+  --color-red--100: #d9534f;
 
-  --color-yellow--0: #f0a5004d;
-  --color-yellow--1: #f0a500;
-  --color-yellow--2: #ffcc33;
+  --color-yellow--100: #f0a5004d; /* very light / transparent */
+  --color-yellow--200: #f0a50099; /* light / semi-transparent */
+  --color-yellow--300: #ffcc33; /* medium-light */
+  --color-yellow--400: #f0a500;
 
-  --color-light--0: #fff;
-  --color-light--1: #0000001f;
-  --color-light--2: #0000002e;
-  --color-light--3: #eaeaea;
-  --color-light--4: #bbb;
+  --color-light--100: #fff; /* pure white */
+  --color-light--200: #ffffff99; /* white overlay / translucent */
+  --color-light--300: #eaeaea; /* light gray */
+  --color-light--400: #bbb; /* medium gray */
+  --color-light--500: #00000014; /* very subtle black overlay */
+  --color-light--600: #0000000f; /* subtle black overlay */
+  --color-light--700: #0000000a; /* faint black overlay */
+  --color-light--800: #0000001f; /* soft shadow / divider */
+  --color-light--900: #0000002e; /* stronger shadow */
 
-  --color-dark--0: #242a2e;
-  --color-dark--1: #42484d;
-  --color-dark--2: #111;
-  --color-dark--3: #333;
-  --color-dark--4: #000;
-
-  /* --color-brand--2: #00c46a;
-  --color-white--0: #fff;
-  --color-dark--0: #242a2e;
-  --color-dark--1: #2d3439;
-  --color-dark--2: #42484d;
-  --color-light--1: #aaa;
-  --color-light--2: #ececec;
-  --color-light--3: #d6dee0; */
+  --color-dark--100: #777; /* lightest dark */
+  --color-dark--200: #555; /* lighter dark */
+  --color-dark--300: #444; /* medium-dark */
+  --color-dark--400: #333; /* darker */
+  --color-dark--500: #242a2e; /* dark background */
+  --color-dark--600: #42484d; /* secondary dark */
+  --color-dark--700: #111; /* almost black */
+  --color-dark--800: #000; /* pure black */
 }
 
 * {
@@ -43,12 +42,12 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
-  color: var(--color-dark--0);
+  color: var(--color-dark--500);
   font-weight: 400;
   line-height: 1.6;
   background: linear-gradient(
     135deg,
-    var(--color-light--0),
-    var(--color-yellow--0)
+    var(--color-light--100),
+    var(--color-yellow--100)
   );
 }

@@ -39,7 +39,7 @@
   gap: 4rem;
   align-items: flex-start;
   flex-wrap: wrap;
-  color: #222;
+  color: var(--color-dark--500);
 }
 
 .imageContainer {
@@ -55,14 +55,14 @@
   max-width: 460px;
   object-fit: cover;
   border-radius: 1rem;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 25px var(--color-light--800);
   aspect-ratio: 1 / 1;
   transition: transform 0.6s ease, box-shadow 0.6s ease;
 }
 
 .image:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 12px 35px var(--color-light--900);
 }
 
 .text {
@@ -75,25 +75,25 @@
   font-weight: 900;
   letter-spacing: 0.06em;
   margin-bottom: 2rem;
-  color: #111;
+  color: var(--color-dark--700);
 }
 
 .text p {
   font-size: clamp(1rem, 1.15vw, 1.15rem);
   line-height: 1.85;
   margin-bottom: 1.6rem;
-  color: #444;
+  color: var(--color-dark--300);
 }
 
 .text p em {
-  color: #f0a500;
+  color: var(--color-yellow--400);
   font-style: normal;
   font-weight: 600;
 }
 
 .finalNote {
   font-weight: 600;
-  color: #111;
+  color: var(--color-dark--700);
   margin-top: 2rem;
 }
 
@@ -102,7 +102,7 @@
   font-size: 1.6rem;
   font-weight: 700;
   margin: 3rem 0 1rem 0;
-  color: #111;
+  color: var(--color-dark--700);
 }
 
 .servicesList {
@@ -115,7 +115,7 @@
 
 .servicesList li {
   font-size: 1rem;
-  color: #444;
+  color: var(--color-dark--300);
   position: relative;
   padding-left: 1.5rem;
   line-height: 1.6;
@@ -123,7 +123,7 @@
 
 .servicesList li::before {
   content: "✔";
-  color: #f0a500;
+  color: var(--color-yellow--400);
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -132,7 +132,7 @@
 /* === Underline === */
 .underline {
   height: 0.3rem;
-  background-color: #f0a500;
+  background-color: var(--color-yellow--400);
   border-radius: 5px;
   animation: slideUnderline 1s ease forwards;
   margin: 2rem 0;

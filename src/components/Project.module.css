@@ -1,0 +1,222 @@
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.projectionWrapper {
+  width: 100%;
+  background: var(--color-light--300);
+  padding: 5rem 0;
+}
+
+.projectionSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 8%;
+  display: flex;
+  gap: 5rem;
+  border-radius: 1rem;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.projectionSection.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.left {
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: clamp(3rem, 7vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.5rem;
+  color: var(--color-dark--500);
+}
+.title span {
+  color: var(--color-yellow--400);
+}
+
+.description {
+  max-width: 85%;
+  font-size: 1.2rem;
+  color: var(--color-dark--600);
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.35rem;
+  background-color: var(--color-yellow--400);
+  border-radius: 5px;
+}
+
+.groups {
+  flex: 1 1 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Groups */
+.group {
+  background: var(--color-light--100);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 20px var(--color-light--900);
+  border: 1px solid var(--color-light--800);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.group:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px var(--color-light--900);
+}
+
+.groupTitle {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: var(--color-dark--500);
+  position: relative;
+}
+.groupTitle::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--color-yellow--400);
+  border-radius: 3px;
+}
+
+/* List of projects */
+.list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cards */
+.card {
+  background: var(--color-light--100);
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--color-light--800);
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  border-color: var(--color-yellow--400);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px var(--color-light--900);
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+.available {
+  background: var(--color-dark--500);
+  color: var(--color-light--100);
+  border-color: var(--color-dark--700);
+}
+.upcoming {
+  background: var(--color-yellow--200);
+  color: var(--color-dark--800);
+  border-color: var(--color-yellow--400);
+}
+
+.cardTitle {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--color-dark--500);
+}
+
+.cardDesc {
+  font-size: 0.95rem;
+  color: var(--color-dark--300);
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+/* Buttons */
+.cta,
+.ctaGhost {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.65rem 1.1rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.cta {
+  background: linear-gradient(
+    135deg,
+    var(--color-yellow--400),
+    var(--color-yellow--300)
+  );
+  color: var(--color-light--100);
+  border: none;
+}
+.cta:hover {
+  box-shadow: 0 8px 20px var(--color-yellow--100);
+  transform: translateY(-2px);
+}
+
+.ctaGhost {
+  background: transparent;
+  border: 1px solid var(--color-light--800);
+  color: var(--color-dark--500);
+}
+.ctaGhost:hover {
+  border-color: var(--color-yellow--400);
+  color: var(--color-dark--800);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px var(--color-light--900);
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+  .projectionSection {
+    flex-direction: column;
+    padding: 3rem 6%;
+  }
+  .title {
+    font-size: clamp(2.5rem, 6vw, 3rem);
+  }
+  .description {
+    max-width: 100%;
+    font-size: 1.1rem;
+  }
+}
