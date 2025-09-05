@@ -5,8 +5,8 @@ export default function CyberInvestigation() {
     <section className={styles.services}>
       <div className={styles.imageContainer}>
         <img
-          src="/homepage.avif"
-          alt="Web application development"
+          src="/Cybercrime Investigation.jpg"
+          alt="Cybercrime Investigation"
           className={styles.image}
         />
       </div>

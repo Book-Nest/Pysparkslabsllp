@@ -53,7 +53,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
-  color: #1a1a1a;
+  color: var(--color-dark--0);
 }
 
 .text h1 {
@@ -68,17 +68,17 @@
 
 .text h1 .digital {
   margin-left: 0.5rem;
-  color: #0070f3; /* modern blue highlight */
+  color: var(--color-yellow--1);
 }
 
 .text h1 .solutions {
   display: block;
-  color: #ff6600; /* modern orange highlight */
+  color: var(--color-yellow--1);
 }
 
 /* === Underline === */
 .underline {
-  background-color: #f0a500;
+  background-color: var(--color-yellow--1);
   height: 0.25rem;
   margin: 1.5rem 0;
   width: 0;
@@ -89,7 +89,7 @@
 /* === Paragraph === */
 .text p {
   font-size: clamp(0.95rem, 1.2vw, 1.1rem);
-  color: #444;
+  color: var(--color-dark--1);
   max-width: 95%;
   line-height: 1.6;
   opacity: 0;
@@ -113,7 +113,7 @@
   opacity: 0;
   animation: slideInRight 1s ease-out forwards;
   animation-delay: 0.8s;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 25px var(--color-light--1);
 }
 
 /* === Responsive === */

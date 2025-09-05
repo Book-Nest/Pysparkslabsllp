@@ -5,8 +5,8 @@ export default function AppDevelopment() {
     <section className={styles.services}>
       <div className={styles.imageContainer}>
         <img
-          src="/homepage.avif"
-          alt="Web application development"
+          src="/App Development.png"
+          alt="App Development.png"
           className={styles.image}
         />
       </div>

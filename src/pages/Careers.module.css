@@ -11,7 +11,7 @@
 
 .careerSectionWrapper {
   width: 100%;
-  background: rgb(234, 234, 234);
+  background: var(--color-light--3);
   padding: 5rem 0; /* spacing top and bottom */
 }
 
@@ -46,16 +46,16 @@
   line-height: 1.1;
   letter-spacing: 0.06em;
   margin-bottom: 1.5rem;
-  color: #111;
+  color: var(--color-dark--0);
 }
 .title span {
-  color: #f0a500;
+  color: var(--color-yellow--1);
 }
 
 .description {
   max-width: 80%;
   font-size: 1.3rem;
-  color: #555;
+  color: var(--color-dark--1);
   margin-bottom: 2.5rem;
   line-height: 1.8;
 }
@@ -63,7 +63,7 @@
 .underline {
   width: 5rem;
   height: 0.35rem;
-  background-color: #f0a500;
+  background-color: var(--color-yellow--1);
   border-radius: 5px;
 }
 
@@ -83,7 +83,7 @@ label {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: var(--color-dark--1);
 }
 
 input,
@@ -91,35 +91,38 @@ textarea {
   font-size: 1.1rem;
   padding: 1.1rem 1.3rem;
   border-radius: 0.5rem;
-  border: 1px solid #ddd;
-  background: #fafafa;
+  border: 1px solid var(--color-light--2);
   outline: none;
   transition: all 0.3s ease;
 }
 
 input:focus,
 textarea:focus {
-  border-color: #f0a500;
-  background: #fff;
-  box-shadow: 0 0 6px rgba(240, 165, 0, 0.3);
+  border-color: var(--color-yellow--1);
+  background: var(--color-light--0);
+  box-shadow: 0 0 6px var(--color-yellow--0);
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #bbb;
+  color: var(--color-light--4);
 }
 
 .error {
   font-size: 0.95rem;
-  color: #d9534f;
+  color: var(--color-red--0);
   margin-top: 0.4rem;
 }
 
 .submitBtn {
   margin-top: 1.2rem;
   padding: 1.2rem 2.5rem;
-  background: linear-gradient(135deg, #f0a500, #ffcc33);
-  color: #fff;
+  background: linear-gradient(
+    135deg,
+    var(--color-yellow--1),
+    var(--color-yellow--2)
+  );
+  color: var(--color-light--0);
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -132,7 +135,7 @@ textarea::placeholder {
 
 .submitBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(240, 165, 0, 0.4);
+  box-shadow: 0 6px 20px var(--color-yellow--0);
 }
 
 .status {

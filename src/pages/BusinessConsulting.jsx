@@ -5,8 +5,8 @@ export default function BusinessConsulting() {
     <section className={styles.services}>
       <div className={styles.imageContainer}>
         <img
-          src="/homepage.avif"
-          alt="Web application development"
+          src="/Business Consulting.jpg"
+          alt="Business Consulting"
           className={styles.image}
         />
       </div>

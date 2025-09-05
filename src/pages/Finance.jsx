@@ -5,8 +5,8 @@ export default function Finance() {
     <section className={styles.services}>
       <div className={styles.imageContainer}>
         <img
-          src="/homepage.avif"
-          alt="Web application development"
+          src="/Finance and Accounting.png"
+          alt="Finance and Accounting"
           className={styles.image}
         />
       </div>

@@ -9,33 +9,33 @@
     {
       "name": "Sruti Manna",
       "role": "CMO",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/sruti_manna.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       "name": "Shuvrajiit Adhikari",
       "role": "CT0",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/shuvrajiit_adhikary.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       "name": "Debanjan Ghosh",
       "role": "Head of Operations, Sales, and Marketing",
       "imgSrc": "/debanjan_ghosh.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "description": "Debanjan Ghosh is a dynamic business professional with a BBA background and diverse industry experience. At PYSPARKS LAB LLP, he leads with a vision for delivering smart, innovative, and growth-driven business solutions. His prior role at Indian Oil Corporation Limited in Sales & Operations sharpened his expertise in strategy, execution, and business management.\n\nPassionate about the intersection of technology and business, Debanjan is also a Certified Cyber Criminologist and Digital Forensics Specialist, bringing a unique perspective to problem-solving and innovation."
     }
   ],
   "consultants": [
     {
       "name": "Sayak Ghosh",
       "role": "Consultant",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/sayak_ghosh.jpg",
       "description": "Sayak Ghosh, M.Sc. in Economics with specialization in Econometrics from WBSU, has experience as a Research Assistant under projects funded by the A.K. Dasgupta Centre for Planning and Development and at WBSU. His research contributions include a publication in a UGC CARE-listed journal, paper presentations at the Bengal Economic Association, and Best Paper Awards at international conferences. He has attended several national-level conferences on Applied Econometrics and economic issues. Proficient in Python, Stata, Power BI, and Advanced Excel for data analysis and econometric modeling."
     },
     {
       "name": "Diptorup Ghosh",
       "role": "Consultant",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/diptorup_ghosh.jpg",
       "description": "Diptorup Ghosh, M.Sc. in Economics and UGC-NET qualified professional, has strong analytical expertise. Currently working as a Data Analyst with proven skills in handling complex datasets. Former Research Assistant at West Bengal State University (WBSU). Proficient in Python, Excel, Power BI, and Stata for advanced data analysis. Passionate about transforming data into meaningful insights and practical solutions."
     }
   ],
@@ -49,13 +49,13 @@
     {
       "name": "Kaushik Mukherjee",
       "role": "Advisor",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/kaushik_mukherjee.jpg",
       "description": "With 28+ years of experience across Marketing Research, Education, MSME, and Social Development,  Mr Kaushik Mukherjee ( PhD pursuing) specializes in Cluster Development, Project Design, Skill & Capacity Building, and Livelihood Development. For the last 12 years, he has worked extensively with State & Central Governments and global organizations like World Bank, ADB, JICA, UNIDO, and Ford Foundation. \nHis career spans leadership roles at PwC, Grant Thornton Bharat LLP, AC Nielsen ORG-MARG, EDI Ahmedabad, and academic contributions as faculty and mentor. An author and trainer, Kaushik blends research, policy, and implementation to drive sustainable MSME growth and impact-driven social development."
     },
     {
       "name": "Progyan Bhattacharya",
       "role": "Advisor",
-      "imgSrc": "/team.avif",
+      "imgSrc": "/progyan_bhattacharya.jpg",
       "description": "Technologist with almost a decade long experience in the industry across stacks and impact in Web Application Development, Mobile Application Development, Big Data and Artificial Intelligence System. Beyond industrial exposure, he is also active in Open Source, Community Building, Mentorship and Philanthropy and widely known as The Pro Dev."
     },
     {
@@ -68,20 +68,20 @@
   "extendedTeamMembers": [
     {
       "name": "Sanjita Kumari Jha",
-      "role": "Advisor",
+      "role": "UI & UX Designer",
       "imgSrc": "/sanjita_kumari_jha.JPG",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       "name": "Sagarike Debnath",
-      "role": "Advisor",
-      "imgSrc": "/team.avif",
+      "role": "Finance & Marketing",
+      "imgSrc": "/sagarika_debnath.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
       "name": "Arunima Chaulia",
-      "role": "Advisor",
-      "imgSrc": "/team.avif",
+      "role": "HR & Marketing",
+      "imgSrc": "/arunima_chaulia.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {

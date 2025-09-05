@@ -5,8 +5,8 @@ export default function AIAutomation() {
     <section className={styles.services}>
       <div className={styles.imageContainer}>
         <img
-          src="/homepage.avif"
-          alt="Web application development"
+          src="/AI bot & Automation.png"
+          alt="AI bot & Automation"
           className={styles.image}
         />
       </div>

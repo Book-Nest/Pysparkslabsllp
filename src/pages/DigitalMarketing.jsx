@@ -5,8 +5,8 @@ export default function DigitalMarketing() {
     <section className={styles.services}>
       <div className={styles.imageContainer}>
         <img
-          src="/homepage.avif"
-          alt="Web application development"
+          src="/Digital Marketing.png"
+          alt="Digital Marketing"
           className={styles.image}
         />
       </div>

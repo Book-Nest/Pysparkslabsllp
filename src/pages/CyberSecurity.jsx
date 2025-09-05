@@ -5,8 +5,8 @@ export default function CyberSecurity() {
     <section className={styles.services}>
       <div className={styles.imageContainer}>
         <img
-          src="/homepage.avif"
-          alt="Web application development"
+          src="/Cyber security Solutions.png"
+          alt="Cyber security Solutions"
           className={styles.image}
         />
       </div>

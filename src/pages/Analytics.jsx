@@ -5,8 +5,8 @@ export default function Analytics() {
     <section className={styles.services}>
       <div className={styles.imageContainer}>
         <img
-          src="/homepage.avif"
-          alt="Web application development"
+          src="/Analytical Solution.png"
+          alt="Analytical Solution"
           className={styles.image}
         />
       </div>

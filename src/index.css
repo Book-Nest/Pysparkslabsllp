@@ -1,15 +1,30 @@
-@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap";
+/* @import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"; */
+@import "https://fonts.google.com/share?selection.family=Nunito:ital,wght@0,200..1000;1,200..1000";
 
 :root {
-  --color-brand--1: #ffb545;
-  --color-brand--2: #00c46a;
+  --color-red--0: #d9534f;
 
+  --color-yellow--0: #f0a5004d;
+  --color-yellow--1: #f0a500;
+  --color-yellow--2: #ffcc33;
+
+  --color-light--0: #fff;
+  --color-light--1: #0000001f;
+  --color-light--2: #0000002e;
+  --color-light--3: #eaeaea;
+  --color-light--4: #bbb;
+
+  --color-dark--0: #242a2e;
+  --color-dark--1: #42484d;
+
+  /* --color-brand--2: #00c46a;
+  --color-white--0: #fff;
   --color-dark--0: #242a2e;
   --color-dark--1: #2d3439;
   --color-dark--2: #42484d;
   --color-light--1: #aaa;
   --color-light--2: #ececec;
-  --color-light--3: #d6dee0;
+  --color-light--3: #d6dee0; */
 }
 
 * {
@@ -19,13 +34,18 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 65%;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Monorope", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--color-dark--0);
   font-weight: 400;
   line-height: 1.6;
+  background: linear-gradient(
+    135deg,
+    var(--color-light--0),
+    var(--color-yellow--1)
+  );
 }
