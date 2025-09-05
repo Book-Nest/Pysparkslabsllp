@@ -55,7 +55,7 @@ export default function Project() {
         {/* LEFT */}
         <div className={styles.left}>
           <h1 className={styles.title}>
-            Our <span>Projections</span>
+            Our <span>Projects</span>
           </h1>
           <p className={styles.description}>
             See what’s shipping now and what’s arriving next. Every product is
