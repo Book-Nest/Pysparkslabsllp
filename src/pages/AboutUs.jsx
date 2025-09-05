@@ -11,7 +11,7 @@ export default function AboutUs() {
       <section className={styles.about}>
         <div className={styles.imageContainer}>
           <img
-            src="/homepage.avif"
+            src="/about-us.png"
             alt="IT services workspace"
             className={styles.image}
           />

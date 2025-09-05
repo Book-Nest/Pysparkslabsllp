@@ -113,6 +113,7 @@
   border: 1px solid var(--cardBorder);
   border-radius: 1rem;
   padding: 1.5rem;
+  background-color: var(--color-light--100);
   box-shadow: var(--shadow);
   text-align: center;
   transition: all 0.35s ease;

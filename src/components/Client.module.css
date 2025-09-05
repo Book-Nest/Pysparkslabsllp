@@ -45,40 +45,45 @@
 /* Grid */
 .clientsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   align-items: center;
-  justify-items: start;
+  justify-items: center;
 }
 
 /* Card */
 .clientCard {
   background: var(--color-light--100);
-  border-radius: 1rem;
-  padding: 1.5rem;
+  border-radius: 0.8rem;
+  padding: 2rem;
   border: 1px solid var(--color-light--300);
   box-shadow: 0 6px 20px var(--color-light--800);
   transition: all 0.3s ease;
   cursor: pointer;
+
+  width: 340px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .clientCard:hover {
-  transform: translateY(-8px) scale(1.03);
+  transform: translateY(-6px) scale(1.03);
   box-shadow: 0 12px 30px var(--color-light--900);
-  border-color: var(--color-yellow--300);
+  border-color: var(--color-light--300);
 }
 
-/* Logo */
+/* Logo (default) */
 .clientLogo {
-  max-width: 120px;
-  max-height: 80px;
+  max-width: 260px;
+  max-height: 160px;
   object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .clientCard:hover .clientLogo {
-  filter: grayscale(0%);
+  transform: scale(1.1);
 }
 
 /* Animations */
@@ -93,8 +98,31 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .titleUnderline {
-    left: 50%;
-    transform: translateX(-50%);
+  .clientsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .clientCard {
+    width: 220px;
+    height: 150px;
+    padding: 1rem;
+  }
+
+  .clientLogo {
+    max-width: 180px;
+    max-height: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .clientCard {
+    width: 480px;
+    height: 300px;
+  }
+
+  .clientLogo {
+    max-width: 520px;
+    max-height: 320px;
   }
 }

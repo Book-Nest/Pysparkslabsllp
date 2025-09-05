@@ -32,10 +32,16 @@ export default function Client() {
       </h2>
 
       <div className={styles.clientsGrid}>
-        {clientsData.map(({ name, logo }) => (
-          <div key={name} className={styles.clientCard}>
+        {clientsData.map(({ name, logo, url }) => (
+          <a
+            key={name}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.clientCard}
+          >
             <img src={logo} alt={name} className={styles.clientLogo} />
-          </div>
+          </a>
         ))}
       </div>
     </section>
