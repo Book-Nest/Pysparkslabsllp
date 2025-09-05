@@ -1,6 +1,10 @@
 .footer {
-  background: linear-gradient(135deg, #1e1e2f, #2c2f33);
-  color: #e5e5e5;
+  background: linear-gradient(
+    135deg,
+    var(--color-dark--2),
+    var(--color-dark--0)
+  );
+  color: var(--color-light--3);
   padding: 5rem 3rem;
   display: flex;
   justify-content: center;
@@ -9,9 +13,8 @@
   opacity: 0;
   transform: translateY(28px);
   transition: opacity 1s ease, transform 1s ease;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-top: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
+  /* border-top: 2px solid var(--color-light--3);
+  box-shadow: 0 -5px 20px var(--color-light--2); */
 }
 
 .fadeIn {
@@ -30,7 +33,7 @@
 .address {
   min-width: 220px;
   text-align: left;
-  border-left: 3px solid rgba(240, 165, 0, 0.4);
+  border-left: 3px solid var(--color-yellow--0);
   padding-left: 1rem;
 }
 
@@ -40,7 +43,7 @@
   font-size: 1.3rem;
   letter-spacing: 1px;
   margin-bottom: 0.6rem;
-  color: #f0a500;
+  color: var(--color-yellow--1);
   text-transform: uppercase;
 }
 
@@ -50,13 +53,13 @@
   font-size: 1rem;
   line-height: 1.5;
   margin: 0.25rem 0;
-  color: #cfcfcf;
+  color: var(--color-light--4);
   text-decoration: none;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .contacts a.email:hover {
-  color: #f0a500;
+  color: var(--color-yellow--1);
   text-decoration: underline;
   transform: translateX(3px);
 }
