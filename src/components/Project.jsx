@@ -79,9 +79,9 @@ export default function Project() {
                     <h3 className={styles.cardTitle}>{p.title}</h3>
                   </div>
                   <p className={styles.cardDesc}>{p.description}</p>
-                  <a className={styles.cta} href={p.href}>
+                  {/* <a className={styles.cta} href={p.href}>
                     {p.ctaLabel}
-                  </a>
+                  </a> */}
                 </li>
               ))}
             </ul>
@@ -100,9 +100,9 @@ export default function Project() {
                     <h3 className={styles.cardTitle}>{p.title}</h3>
                   </div>
                   <p className={styles.cardDesc}>{p.description}</p>
-                  <a className={styles.ctaGhost} href={p.href}>
+                  {/* <a className={styles.ctaGhost} href={p.href}>
                     {p.ctaLabel}
-                  </a>
+                  </a> */}
                 </li>
               ))}
             </ul>
