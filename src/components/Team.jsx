@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./Team.module.css";
 import teamData from "../data/team.json";
+import Linkify from "react-linkify";
 
 export default function Team() {
   const [expandedMember, setExpandedMember] = useState(null);
@@ -42,13 +43,15 @@ export default function Team() {
           Meet Our Team
           <span className={styles.titleUnderline}></span>
         </h1>
-        <p className={styles.description}>
-          Our strength lies in our diversity and expertise. Established with a
-          vision to deliver cutting-edge solutions, our team brings together
-          specialists from business consulting, technology, digital marketing,
-          finance, and cybersecurity — all working together to provide
-          innovative and reliable services for our clients.
-        </p>
+        <Linkify>
+          <p className={styles.description}>
+            Our strength lies in our diversity and expertise. Established with a
+            vision to deliver cutting-edge solutions, our team brings together
+            specialists from business consulting, technology, digital marketing,
+            finance, and cybersecurity — all working together to provide
+            innovative and reliable services for our clients.
+          </p>
+        </Linkify>
       </div>
 
       {/* Founders */}
