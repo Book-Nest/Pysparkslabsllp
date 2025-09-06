@@ -2,20 +2,6 @@ import { useEffect, useState } from "react";
 import styles from "./Team.module.css";
 import teamData from "../data/team.json";
 
-function LinkifyText({ text }) {
-  const urlRegex = /(https?:\/\/[^\s]+)/g;
-
-  return text.split(urlRegex).map((part, i) =>
-    urlRegex.test(part) ? (
-      <a key={i} href={part} target="_blank" rel="noopener noreferrer">
-        {part}
-      </a>
-    ) : (
-      part
-    )
-  );
-}
-
 export default function Team() {
   const [expandedMember, setExpandedMember] = useState(null);
   const [visibleGroups, setVisibleGroups] = useState({
@@ -137,7 +123,7 @@ export default function Team() {
         data-group="advisors"
       >
         <h2 className={styles.groupTitle}>
-          Expert Advisor Committee
+          Expert Advisor Committee{" "}
           <span className={styles.groupUnderline}></span>
         </h2>
         <div className={styles.members}>
@@ -189,9 +175,7 @@ export default function Team() {
                   <h3 className={styles.name}>{name}</h3>
                   <p className={styles.role}>{role}</p>
                   {expandedMember === name && (
-                    <LinkifyText>
-                      <p className={styles.descriptionText}>{description}</p>
-                    </LinkifyText>
+                    <p className={styles.descriptionText}>{description}</p>
                   )}
                 </div>
               </div>
