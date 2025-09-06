@@ -43,15 +43,13 @@ export default function Team() {
           Meet Our Team
           <span className={styles.titleUnderline}></span>
         </h1>
-        <Linkify>
-          <p className={styles.description}>
-            Our strength lies in our diversity and expertise. Established with a
-            vision to deliver cutting-edge solutions, our team brings together
-            specialists from business consulting, technology, digital marketing,
-            finance, and cybersecurity — all working together to provide
-            innovative and reliable services for our clients.
-          </p>
-        </Linkify>
+        <p className={styles.description}>
+          Our strength lies in our diversity and expertise. Established with a
+          vision to deliver cutting-edge solutions, our team brings together
+          specialists from business consulting, technology, digital marketing,
+          finance, and cybersecurity — all working together to provide
+          innovative and reliable services for our clients.
+        </p>
       </div>
 
       {/* Founders */}
@@ -126,7 +124,7 @@ export default function Team() {
         data-group="advisors"
       >
         <h2 className={styles.groupTitle}>
-          Expert Advisor Committee{" "}
+          Expert Advisor Committee
           <span className={styles.groupUnderline}></span>
         </h2>
         <div className={styles.members}>
@@ -178,7 +176,9 @@ export default function Team() {
                   <h3 className={styles.name}>{name}</h3>
                   <p className={styles.role}>{role}</p>
                   {expandedMember === name && (
-                    <p className={styles.descriptionText}>{description}</p>
+                    <Linkify>
+                      <p className={styles.descriptionText}>{description}</p>
+                    </Linkify>
                   )}
                 </div>
               </div>
