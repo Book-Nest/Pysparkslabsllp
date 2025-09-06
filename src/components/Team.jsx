@@ -1,7 +1,20 @@
 import { useEffect, useState } from "react";
 import styles from "./Team.module.css";
 import teamData from "../data/team.json";
-import Linkify from "react-linkify";
+
+function LinkifyText({ text }) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+  return text.split(urlRegex).map((part, i) =>
+    urlRegex.test(part) ? (
+      <a key={i} href={part} target="_blank" rel="noopener noreferrer">
+        {part}
+      </a>
+    ) : (
+      part
+    )
+  );
+}
 
 export default function Team() {
   const [expandedMember, setExpandedMember] = useState(null);
@@ -176,9 +189,9 @@ export default function Team() {
                   <h3 className={styles.name}>{name}</h3>
                   <p className={styles.role}>{role}</p>
                   {expandedMember === name && (
-                    <Linkify>
+                    <LinkifyText>
                       <p className={styles.descriptionText}>{description}</p>
-                    </Linkify>
+                    </LinkifyText>
                   )}
                 </div>
               </div>
