@@ -33,8 +33,8 @@ export default function Homepage() {
         </div>
       </section>
       <ContactUs />
-      <Client />
       <Project />
+      <Client />
       <Team />
       <Footer />
     </>
