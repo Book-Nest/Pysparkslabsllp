@@ -5,9 +5,10 @@
 
 /* Section */
 .clientsSection {
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  width: 100%;
   margin: 0 auto;
-  /* padding: 5rem 8%; */
+  padding: 5rem 8%;
   background: var(--color-light--300);
   text-align: center;
   opacity: 0;
