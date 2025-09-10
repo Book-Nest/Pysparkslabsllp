@@ -7,7 +7,7 @@
 .clientsSection {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 5rem 8%;
+  /* padding: 5rem 8%; */
   background: var(--color-light--300);
   text-align: center;
   opacity: 0;
