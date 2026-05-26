@@ -53,9 +53,8 @@ export default function Team() {
 
       {/* Founders */}
       <div
-        className={`${styles.group} ${
-          visibleGroups.founders ? styles.visible : ""
-        }`}
+        className={`${styles.group} ${visibleGroups.founders ? styles.visible : ""
+          }`}
         data-group="founders"
       >
         <h2 className={styles.groupTitle}>
@@ -65,9 +64,8 @@ export default function Team() {
           {teamData.founders.map(({ name, role, imgSrc, description }) => (
             <div
               key={name}
-              className={`${styles.member} ${
-                expandedMember === name ? styles.expanded : ""
-              }`}
+              className={`${styles.member} ${expandedMember === name ? styles.expanded : ""
+                }`}
               onClick={() => toggleExpand(name)}
             >
               <img src={imgSrc} alt={name} className={styles.photo} />
@@ -83,7 +81,7 @@ export default function Team() {
         </div>
       </div>
 
-      {/* Consultants */}
+      {/* Consultants 
       <div
         className={`${styles.group} ${
           visibleGroups.consultants ? styles.visible : ""
@@ -113,13 +111,12 @@ export default function Team() {
             </div>
           ))}
         </div>
-      </div>
+      </div>*/}
 
       {/* Advisors */}
       <div
-        className={`${styles.group} ${
-          visibleGroups.advisors ? styles.visible : ""
-        }`}
+        className={`${styles.group} ${visibleGroups.advisors ? styles.visible : ""
+          }`}
         data-group="advisors"
       >
         <h2 className={styles.groupTitle}>
@@ -131,9 +128,8 @@ export default function Team() {
             ({ name, role, imgSrc, description }) => (
               <div
                 key={name}
-                className={`${styles.member} ${
-                  expandedMember === name ? styles.expanded : ""
-                }`}
+                className={`${styles.member} ${expandedMember === name ? styles.expanded : ""
+                  }`}
                 onClick={() => toggleExpand(name)}
               >
                 <img src={imgSrc} alt={name} className={styles.photo} />
@@ -152,9 +148,8 @@ export default function Team() {
 
       {/* Extended Team */}
       <div
-        className={`${styles.group} ${
-          visibleGroups.extended ? styles.visible : ""
-        }`}
+        className={`${styles.group} ${visibleGroups.extended ? styles.visible : ""
+          }`}
         data-group="extended"
       >
         <h2 className={styles.groupTitle}>
@@ -165,9 +160,8 @@ export default function Team() {
             ({ name, role, imgSrc, description }) => (
               <div
                 key={name}
-                className={`${styles.member} ${
-                  expandedMember === name ? styles.expanded : ""
-                }`}
+                className={`${styles.member} ${expandedMember === name ? styles.expanded : ""
+                  }`}
                 onClick={() => toggleExpand(name)}
               >
                 <img src={imgSrc} alt={name} className={styles.photo} />
