@@ -43,14 +43,6 @@
       "role": "Consultant & Full Stack Developer",
       "imgSrc": "/arghya_malakar.jpg",
       "description": "Arghya Malakar , a BTech,Computer Science & Engineering qualified professional, is the Consultant & Full Stack Developer of PYSPARKS LAB LLP, where he focuses on delivering smart business and project solutions driven by innovation and growth. He brings valuable experience from his current role at Techno Polytechnic Durgapur in the CST department as a lecturer, where he teach Python, Algorithms, Computer System Organization, and IoT with a mission to make technical education engaging, empowering, and deeply practical. Proficient in Python, MySQL, Java, Microsoft Excel, Communication, Problem Solving, Type Script, React Native and also in 3 languages like Bengali, English, Hindi. Arghya blends analytical thinking with practical problem-solving to create impactful solutions. Alongside his professional pursuits, he has the Licenses & Certifications for Problem Solving(Basic), Problem Solving(Intermediate), Python(Basic), Python for Data Science , reflecting his interest in technology and its evolving role in society. At PYSPARKS LAB LLP, he plays a key role in strategic planning, operational management, and business development, helping shape the company’s growth journey."
-    }
-  ],
-  "expertAdvisors": [
-    {
-      "name": "Dr Tushar Kanti Dey",
-      "role": "Advisor",
-      "imgSrc": "/tushar_kanti_dey.jpg",
-      "description": "Dr. Tushar Kanti Dey [PhD in Economics, M.Sc (Economics)] Assistant Professor of Economics, School of Management Sciences, MAKAUT WB. Tushar Kanti Dey is associated with teaching and research of economics, econometrics, statistics, and other allied courses of general degree, Management, Law, and Engineering since 12 years. He has contributed to a lot of interdisciplinary research and was associated with the State Institute of Panchyat and Rural Development in central funded research projects. He has consulted different research projects as the statistical associate and has vast experience in field survey–based research. Again, he has worked across different states of India to serve research assignments on behalf of leading research organizations of India. He has a vast experience of teaching Economics and related subjects in different disciplines like Law, Management, and general degree courses in both public & private sector universities and colleges."
     },
     {
       "name": "Kaushik Mukherjee",
@@ -59,42 +51,52 @@
       "description": "With 28+ years of experience across Marketing Research, Education, MSME, and Social Development,  Mr Kaushik Mukherjee ( PhD pursuing) specializes in Cluster Development, Project Design, Skill & Capacity Building, and Livelihood Development. For the last 12 years, he has worked extensively with State & Central Governments and global organizations like World Bank, ADB, JICA, UNIDO, and Ford Foundation. \nHis career spans leadership roles at PwC, Grant Thornton Bharat LLP, AC Nielsen ORG-MARG, EDI Ahmedabad, and academic contributions as faculty and mentor. An author and trainer, Kaushik blends research, policy, and implementation to drive sustainable MSME growth and impact-driven social development."
     },
     {
-      "name": "Progyan Bhattacharya",
-      "role": "Advisor",
-      "imgSrc": "/progyan_bhattacharya.jpg",
-      "description": "Technologist with almost a decade long experience in the industry across stacks and impact in Web Application Development, Mobile Application Development, Big Data and Artificial Intelligence System. Beyond industrial exposure, he is also active in Open Source, Community Building, Mentorship and Philanthropy and widely known as The Pro Dev."
-    },
-    {
       "name": "Debattam Bhattacharjee",
       "role": "Advisor",
       "imgSrc": "/debattam_bhattacharya.jpg",
       "description": "Debattam Bhattacharjee is an experienced cybersecurity professional currently working as a Manager at Capgemini Invent. He has a strong background as a technical lead and security architect with expertise in risk assessment, penetration testing, incident response, and vulnerability assessment across both on-premises and cloud environments. He is skilled in Red Hat Linux and networking, holding multiple certifications including OSCP, AZx2, GCP, and CEH. With a bachelor’s degree in engineering, he has demonstrated a successful career in the IT and services industry."
     }
   ],
+  "strategicPartner": [
+    {
+      "name": "Progyan Bhattacharya",
+      "role": "Strategic Partner",
+      "imgSrc": "/progyan_bhattacharya.jpg",
+      "description": "Technologist with almost a decade long experience in the industry across stacks and impact in Web Application Development, Mobile Application Development, Big Data and Artificial Intelligence System. Beyond industrial exposure, he is also active in Open Source, Community Building, Mentorship and Philanthropy and widely known as The Pro Dev."
+    }
+  ],
+  "expertAdvisors": [
+    {
+      "name": "Dr Tushar Kanti Dey",
+      "role": "Advisor",
+      "imgSrc": "/tushar_kanti_dey.jpg",
+      "description": "Dr. Tushar Kanti Dey [PhD in Economics, M.Sc (Economics)] Assistant Professor of Economics, School of Management Sciences, MAKAUT WB. Tushar Kanti Dey is associated with teaching and research of economics, econometrics, statistics, and other allied courses of general degree, Management, Law, and Engineering since 12 years. He has contributed to a lot of interdisciplinary research and was associated with the State Institute of Panchyat and Rural Development in central funded research projects. He has consulted different research projects as the statistical associate and has vast experience in field survey–based research. Again, he has worked across different states of India to serve research assignments on behalf of leading research organizations of India. He has a vast experience of teaching Economics and related subjects in different disciplines like Law, Management, and general degree courses in both public & private sector universities and colleges."
+    }
+  ],
   "extendedTeamMembers": [
     {
-      "name": "Sanjita Kumari Jha",
-      "role": "SEO & UI & UX Designer",
-      "imgSrc": "/sanjita_kumari_jha.JPG",
-      "description": "Sanjita Kumari Jha, a BCA graduate from MAKAUT, WB, and currently pursuing MCA at Assam University (Central), is a passionate technology enthusiast with a strong blend of frontend development, data analytics, and machine learning expertise. As an Advisor at PYSPARKS LAB LLP, where she also completed her internship, she has contributed to impactful digital solutions that merge creativity with technical precision. With proficiency in React Native, Python, C, Java, SQL, PHP, and database management systems, Sanjita builds applications that are both user-friendly and technically robust. Her skill set also extends to data visualization (Pandas, NumPy, Matplotlib), frontend design (HTML, CSS, React.js, Bootstrap, Canva), and embedded systems integration (Arduino IDE, sensors, circuit design). Highlighted Projects Lifestyle App (React Native) – A modern productivity tool designed to help users manage daily routines, track wellness, and stay consistent with self-care goals. Expense Tracker App (React Native) – A responsive mobile app that enables users to track, categorize, and analyze their expenses, showcasing sleek UI and real-time analytics. Obstacle Detection System (IoT) – A sensor-driven solution built using Arduino for real-time detection of obstacles, enhancing safety through embedded systems. Face & Smile Detection (OpenCV & Python) – An AI-powered application for human face and smile recognition, demonstrating her ability to apply computer vision techniques effectively. (For more projects and design showcases, visit her portfolio: atijnas07.github.io/Sanjita-s-portfolio) Fluent in English, Bengali, Hindi, and Maithili, Sanjita brings not only technical acumen but also adaptability, leadership, and strong communication skills—qualities that make her a versatile professional in both innovation and collaboration."
+      "name": "Pallabi Chatterjee",
+      "role": "Social Media Manager",
+      "imgSrc": "/pallabi_chatterjee.jpeg",
+      "description": ""
     },
     {
-      "name": "Sagarika Debnath",
-      "role": "Finance & Operations",
-      "imgSrc": "/sagarika_debnath.jpg",
-      "description": "Sagarika Debnath, a BBA graduate, is an Advisor at PYSPARKS LAB LLP with expertise in business development and strategic growth initiatives. She has previously worked as a Business Development Executive at AI Academia, where she honed her skills in client relations, sales processes, and market expansion strategies. With strong foundations in leadership, communication, and business strategy, Sagarika contributes to driving growth opportunities and building meaningful partnerships, making her a valuable part of the PYSPARKS LAB LLP advisory team."
+      "name": "Arup Roy",
+      "role": "Creative Consultant",
+      "imgSrc": "/arup_roy.jpeg",
+      "description": ""
     },
     {
-      "name": "Arunima Chaulia",
-      "role": "HR & Marketing",
-      "imgSrc": "/arunima_chaulia.jpg",
-      "description": "Arunima Chaulia, a BBA graduate, brings a dynamic blend of expertise in business strategy, human resources, financial analysis, and marketing. As an Advisor at PYSPARKS LAB LLP, she leverages her strong foundation in leadership, communication, and team management to drive impactful business outcomes. With professional experience as a Human Resources Assistant, Social Media Manager, and Business Development Associate at AI Academia, Arunima has honed her skills across diverse domains including HR operations, employee engagement, strategic planning, client relationship management, and business development. She provides services in financial accounting & reporting, brand and digital marketing, HR consulting, strategic business initiatives, and customer success solutions, ensuring value-driven growth for clients. Known for her analytical mindset, problem-solving abilities, and interpersonal excellence, Arunima continues to play a vital role in fostering innovation, building strong business relationships, and supporting organizational development at PYSPARKS LAB LLP."
+      "name": "Riya Deb",
+      "role": "Content Marketing",
+      "imgSrc": "/riya_deb.jpeg",
+      "description": ""
     },
     {
-      "name": "Anuksha Sarkar",
-      "role": "Intern",
-      "imgSrc": "/anuksha_sarkar.jpg",
-      "description": "Anuksha Sarkar, currently pursuing a B.Sc. in IT (Data Science), is an Intern at PYSPARKS LAB LLP with growing expertise in Python, C, Java, SQL, and Database Management Systems. Skilled in leadership and communication, Anuksha brings a balanced mix of technical knowledge and collaborative spirit to every project. With a keen interest in cybersecurity and data analysis, she is building a strong foundation in emerging technologies while actively contributing to the firm’s research and development initiatives. Her adaptability, problem-solving approach, and enthusiasm for learning make her a promising professional in the field of IT and data science."
+      "name": "Soumya Dev Chakraborty",
+      "role": "Content Marketing",
+      "imgSrc": "/soumya_dev_chakraborty.jpeg",
+      "description": ""
     }
   ]
 }
