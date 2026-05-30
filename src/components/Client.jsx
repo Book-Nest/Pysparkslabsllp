@@ -27,7 +27,7 @@ export default function Client() {
       data-clients
     >
       <h2 className={styles.title}>
-        Our Existing Clients
+        Our Clients
         <span className={styles.titleUnderline}></span>
       </h2>
 
